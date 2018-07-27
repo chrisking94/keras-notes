@@ -1,0 +1,28 @@
+<!--模板页-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">   <!--必须是xhtml，dtd文件-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Chris's Keras note</title>
+	<meta name="keywords" content="关键字列表" />
+	<meta name="description" content="网页描述" />
+	<link rel="stylesheet" type="text/css" href="" />
+	<style type="text/css"></style>
+	<script type="text/javascript"></script>
+</head>
+ 
+<frameset  rows="100,*" border="1" >   <!--框架集,上下分页-->
+	<frame src="navigation.html"  noresize="noresize" />      <!--框架,内容页-->
+	<frameset cols="200,*">       <!--嵌套框架集,左右分页-->
+			<frame src="./keras/contents.html" noresize="noresize" name="contents"/>   <!--框架,内容页-->  <!--noresize表示不能改变尺寸-->
+			<frame src="content.html" name="content" />   <!--指定name为content-->
+	</frameset>
+ </frameset>
+ 
+ 
+<noframes>  <!--不支持框架-->
+<body>
+您的浏览器不支持框架？不过像你的浏览器，真的不太好找
+</body>
+</noframes>
+</html>
